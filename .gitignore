@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+
+# uv / entorno virtual
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datos (contenido, no la carpeta)
+data/*
+!data/.gitkeep
+
+# Editores / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

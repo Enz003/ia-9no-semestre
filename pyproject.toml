@@ -1,0 +1,21 @@
+[project]
+name = "ia"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "graphviz>=0.21",
+    "ipykernel>=7.3.0",
+    "jupyter>=1.1.1",
+    "matplotlib>=3.11.1",
+    "networkx>=3.6.1",
+    "numpy>=2.5.2",
+    "pandas>=3.0.5",
+    "scikit-learn>=1.9.0",
+    "scipy>=1.18.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+    "ruff>=0.16.3",
+]
