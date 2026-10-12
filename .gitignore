@@ -14,6 +14,9 @@ __pycache__/
 data/*
 !data/.gitkeep
 
+# Datos CWRU que descargan los notebooks al ejecutarse
+cwru_data/
+
 # Editores / SO
 .vscode/
 .idea/
